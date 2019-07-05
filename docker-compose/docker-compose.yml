@@ -40,7 +40,7 @@ services:
                 -Dlocal.transform.service.enabled=true
                 -Dtransform.service.enabled=true
                 -Dcsrf.filter.enabled=false
-                -Ddsync.service.uris=http://localhost:9090/alfresco
+                -Ddsync.service.uris=http://localhost:8080/syncservice
                 -Xms1500m -Xmx1500m
                 "
 
@@ -176,7 +176,7 @@ services:
             BASEPATH: ./
 
     proxy:
-        image: alfresco/alfresco-acs-nginx:3.0.1
+        image: alfresco/alfresco-acs-nginx:3.0.1_feature-APPSREPO-667
         mem_limit: 128m
         depends_on:
             - alfresco
