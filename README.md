@@ -86,4 +86,4 @@ Not supported OnPrem and OnCloud:
 * SMB/CIFS
 * Authentication with passthru
 * The old Cloud Sync
-* Transformations (we only support renditions)
+* Transformations (we only support renditions) 
