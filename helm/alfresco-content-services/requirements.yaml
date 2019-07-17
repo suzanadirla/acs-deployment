@@ -24,7 +24,7 @@ dependencies:
 - name: alfresco-sync-service
   version: 0.2.0
   condition: alfresco-sync-service.enabled
-  repository: https://kubernetes-charts.alfresco.com/incubator
+  repository: https://kubernetes-charts.alfresco.com/stable
   import-values:
     - child: syncservice
       parent: syncservice
